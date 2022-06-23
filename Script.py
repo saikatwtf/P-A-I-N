@@ -1,7 +1,7 @@
 class script(object):
-    START_TXT = """Hey {},
+    START_TXT = """<b>Hey {} 👋🏼</b>,
 <b>I'm <a href=https://t.me/MoviGenX>Media Search Bot</a></b>🤭
-<b>Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.</b>
+<b>Just Add me to your Group And make Admin there and send me the name of media on that Group.</b>
 Owner - @AnnihilusOP 😁"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
