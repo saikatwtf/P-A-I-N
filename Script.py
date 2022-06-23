@@ -38,7 +38,7 @@ Owner - @AnnihilusOP 😁"""
 2. @MoviZenXFilterBot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MoviZenX)</code>
+<code>[Button Text](buttonurl:https://t.me/MoviGenX)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
