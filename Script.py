@@ -1,19 +1,19 @@
 class script(object):
     START_TXT = """Hey {},
-I'm <a href=https://t.me/MoviZenX>MoviZenX Search Bot</a>🤭
-Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
+<b>I'm <a href=https://t.me/MoviGenX>Media Search Bot</a></b>🤭
+<b>Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.</b>
 Owner - @AnnihilusOP 😁"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """⭐ Name: <b>@MoviZenXFilterBot</b>
-⭐ Creators: <a href=https://t.me/MoviZenX>©️Team MoviZenX</a>
+⭐ Creators: <a href=https://t.me/MoviGenX>©️Team MoviGenX</a>
 ⭐ Library: Pyrogram
 ⭐ Language: <code>Python 3.2</code>
 ⭐ Build Status: V2.0.1 [Beta]
 ⭐ Daddy's Name: <a href=https://t.me/AnnihilusOP>Saikat🤭</a>"""
     SOURCE_TXT = """<b>NOTE:</b>
 -○  ɪᴛ's ɴᴏᴛᴇ ᴄᴏᴍᴘʟɪᴄᴀᴛᴇᴅ...🤓
-○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @MoviZenXFilterBot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
+-○  ᴄʀᴇᴀᴛᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ @MoviZenXFilterBot ᴀᴅᴍɪɴ ᴛʜᴇʀᴇ, ᴀɴᴅ sᴛᴀʀᴛ ᴀsᴋɪɴɢ ᴍᴏᴠɪᴇs ᴏɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘ 
 ᴇɴᴊᴏʏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs 🔥❤️  
 <b>DEVS:</b>
 - <a href=https://t.me/AnnihilusOP>Saikat🤭</a>"""
@@ -88,11 +88,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """📈 Total Files: <code>{}</code>
-📈 Total Users: <code>{}</code>
-📈 Total Chats: <code>{}</code>
-📈 Used Storage: <code>{}</code> 𝙼𝚒𝙱
-📈 Free Storage: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """➥ Total Files: <code>{}</code>
+➥ Total Users: <code>{}</code>
+➥ Total Chats: <code>{}</code>
+➥ Used Storage: <code>{}</code> 𝙼𝚒𝙱
+➥ Free Storage: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
