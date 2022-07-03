@@ -413,9 +413,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('🎯 Movie Group 🎯', url='https://t.me/MoviZenXFlix'),
             InlineKeyboardButton('⚡ Updates Channel⚡', url='https://t.me/MoviGenX')
+            ],[
+            InlineKeyboardButton('💯 Share Our Bot 💯', url='https://t.me/share/url?url=MoviGenX%20Media%20Search%20Bot%20%E2%9A%A1%0A%0A%E2%9C%85%20Faster%20And%20Efficient%20%F0%9F%8F%8D%EF%B8%8F%F0%9F%92%A8%0A%E2%9C%85%20Work%20In%20Group%20For%20Free%20%F0%9F%A4%A9%0A%E2%9C%85%20Highly%20Accurate%20Results%20%F0%9F%98%97%0A%E2%9C%85%20Also%20some%20Other%20feature%20%F0%9F%A4%9F%F0%9F%8F%BD%0A%0AAdd%20Me%20As%20Admin%20In%20Any%20Group%20To%20Search%20For%20Movies%20%F0%9F%8D%BF%0A%0A%E2%94%8F%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%93%0A%20%20%20%20%20%40MoviGenXFilterBoT%E2%9A%A1%0A%E2%94%97%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%9B')
         ], [
             InlineKeyboardButton('📎 Help', callback_data='help'),
-            InlineKeyboardButton('😁 About', callback_data='about')
+            InlineKeyboardButton('😁 About', callback_data='about'))
+            ],[
+            InlineKeyboardButton('✘ Close the Menu ✘', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
