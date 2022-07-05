@@ -251,7 +251,7 @@ async def start(client, message):
     buttons = [
         [
             InlineKeyboardButton('✘ Movie Updates', url='https://t.me/MoviGenX'),
-            InlineKeyboardButton('Bot Updates ✘', url='https://t.me/MoviZrnXFlix')
+            InlineKeyboardButton('Bot Updates ✘', url='https://t.me/MoviZenXFlix')
         ],
         [
             InlineKeyboardButton('✘ CLubHouse ✘', url=f'https://t.me/mxCLubHouse')
