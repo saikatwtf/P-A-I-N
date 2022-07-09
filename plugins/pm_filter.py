@@ -725,11 +725,11 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"<b>Hey {message.from_user.mention}</b>👋🏻\n<b>🔍 Here is Your Query Result</b>: <code>{search}</code>\n<b>© Powered by</b>: <b><a href=https://t.me/MoviZenXFlix>{message.chat.title}</a></b>\nㅤㅤㅤㅤ\n<b><u>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 𝚈𝚘𝚞𝚛 𝚀𝚞𝚎𝚛𝚢 ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b></u>"
     if imdb and imdb.get('poster'):
         try:
-           a = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
+           saikat = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(60)
-            await message.delete()
-            await a.delete()
+await saikat.delete()
+await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
