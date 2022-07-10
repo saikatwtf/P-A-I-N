@@ -722,25 +722,25 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey {message.from_user.mention}</b>👋🏻\n<b>🔍 Here is Your Query Result</b>: <code>{search}</code>\n<b>© Powered by</b>: <b><a href=https://t.me/MoviZenXFlix>{message.chat.title}</a></b>\nㅤㅤㅤㅤ\n<b><u>ɪ𝙵 ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ 𝙵ɪʟᴇ𝚂 ᴏ𝙵 𝚈𝚘𝚞𝚛 𝚀𝚞𝚎𝚛𝚢 ʏᴏᴜ ᴀ𝚂ᴋᴇᴅ 𝙵ᴏʀ . ʟᴏᴏᴋ ᴀᴛ ɴᴇ𝚇ᴛ ᴘᴀɢᴇ</b></u>"
+        cap = f"<b>Hey {message.from_user.mention}</b>👋🏻\n<b>🔍Here is Your Query Result:<\b> <code>{search}</code>\n<b>© Powered by</b>: <b><a href=https://t.me/MoviZenXFlix>{message.chat.title}</a></b>\nㅤㅤㅤㅤ\n<b><u>𝘐𝘧 𝘠𝘰𝘶 𝘋𝘰 𝘕𝘰𝘵 𝘚𝘦𝘦 𝘛𝘩𝘦 𝘍𝘪𝘭𝘦𝘴 𝘰𝘧 𝘠𝘰𝘶𝘳 𝘘𝘶𝘦𝘳𝘺 𝘠𝘰𝘶 𝘈𝘴𝘬𝘦𝘥 𝘍𝘰𝘳, 𝘓𝘰𝘰𝘬 𝘈𝘵 𝘕𝘦𝘹𝘵 𝘗𝘢𝘨𝘦</b></u>"
     if imdb and imdb.get('poster'):
         try:
-           saikat = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
-                                      reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(60)
-await saikat.delete()
-await message.delete()
+            hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(120)
+            await hehe.delete()            
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(120)            
         except Exception as e:
             logger.exception(e)
-            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(120)            
     else:
-        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-    if spoll:
-        await msg.message.delete()
+        fuk = await message.reply_text(text=cap, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(btn))
+        await asyncio.sleep(120)
+        await fuk.delete()
 
 async def advantage_spell_chok(msg):
     query = re.sub(
