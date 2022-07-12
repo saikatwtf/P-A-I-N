@@ -2,7 +2,7 @@
   <img src="assets/logo/20220713_014204.jpg" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>P-A-I-N</b>
 </h1>
 
 
@@ -30,9 +30,10 @@
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
 - [x] Spelling Check Feature
 - [x] File Store
+- [x] Auto-Delete Feature
 ## Variables
 
-Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up with your edits.
+Edited By [AnnihilusOP](https://telegram.dog/AnnihilusOP) I'm Not Creator of this repo Am just small Code Editor who learn from Codes.
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
